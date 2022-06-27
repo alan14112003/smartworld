@@ -1,0 +1,119 @@
+:root{--background-chinh: #FF914D}
+
+nav ul {
+    justify-content: left;
+}
+nav ul li:last-child {
+    margin-left: 10%;
+    font-size: 1.5rem;
+}
+.main {
+    display: block;
+    margin: 5% 0;
+}
+.main .dang-nhap{
+    display: block;
+    padding: 3% 6%;
+    background-color: #fff;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 14%);
+    border-radius: .25rem;
+    padding-bottom: 7%;
+}
+.dang-nhap .dang-nhap-title {
+    margin-bottom: 8%;
+}
+.dang-nhap .dangnhap-form {
+    display: block;
+}
+.dang-nhap .dangnhap-form input {
+    padding: .75rem .9rem;
+    display: block;
+    width: 100%;
+    outline: none;
+    margin-bottom: 5%;
+    border: 1px solid rgba(0,0,0,.14);
+    border-radius: 2px;
+    font-size: 1rem;
+}
+.dang-nhap .dangnhap-form input:nth-child(3) {
+    background-color: var(--background-chinh);
+    color: #fff;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.quen-MK {
+    margin: 2% 0;
+}
+.quen-MK a {
+    color: #05a;
+    font-size: .80rem;
+}
+.hoac {
+    color: #ccc;
+    padding: 0 1rem;
+    text-transform: uppercase;
+    font-size: .75rem;
+    margin: 3% 0;
+}
+.hoac {
+    position: relative;
+    text-align: center;
+}
+
+.hoac span:before, .hoac span:after{
+    background-color: #dbdbdb;
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 40%;
+    top: 50%;
+}
+.hoac>span:before{
+    left: 0;
+}
+
+.hoac >span:after{
+    right: 0;
+}
+.dangnhap-form .lienket {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 6%;
+}
+.dangnhap-form .lienket-item {
+    padding: 2% 2%;
+    display: flex;
+    cursor: pointer;
+    padding-right: 3%;
+}
+.dangnhap-form .lienket-item:hover {
+    background-color: rgba(0,0,0,.02);
+}
+
+.dangnhap-form .lienket-item span{
+    vertical-align: middle;
+    line-height: 1.5rem;
+    margin-left: 5%;
+}
+.dangnhap-form .lienket-item i{
+    font-size: 1.5rem;
+}
+.dangnhap-form .facebook i{
+    color: #4267b2;
+}
+.dangnhap-form .google i{
+    color: #EA4335;
+}
+.dang-ky {
+    display: flex;
+    justify-content: center;
+}
+.dang-ky span {
+    white-space: pre;
+    padding-right: .25rem;
+    color: rgba(0,0,0,.26);
+    font-size: .875rem;
+}
+.dang-ky span a {
+    color: #ee4d2d;
+}

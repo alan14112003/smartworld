@@ -1,0 +1,74 @@
+:root{--background-chinh: #FF914D}
+.cart {
+    text-align: center;
+    min-height: 500px;
+    margin-top: 170px;
+}
+
+.cart h2 {
+    margin-bottom: 20px;
+}
+
+.cart table {
+    width: 100%;
+}
+.cart table thead tr th{
+    padding-bottom: 5px;
+}
+.cart table thead tr th:first-child {
+    text-align: left;
+}
+.cart table tbody tr td {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0;
+}
+.cart table tbody tr td input {
+    cursor: pointer;
+}
+.image {
+    display: flex;
+    align-items: center;
+}
+
+.image img {
+    width: 70px;
+}
+
+.image span {
+    margin-left: 5px;
+}
+
+.count input {
+    width: 30px;
+    outline: none;
+    text-align: center;
+}
+
+.price-total {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2% 3%;
+    align-items: center;
+    height: 30px;
+}
+.price-total p {
+    font-weight: bold;
+}
+.price-total button.muaHang {
+    padding: 10px 12px;
+    margin-left: 2%;
+    border: none;
+    background-color: var(--background-chinh);
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-delete {
+    border: 1px solid rgb(255, 72, 0);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: rgb(255, 72, 0);
+    color: white;
+    cursor: pointer;
+}

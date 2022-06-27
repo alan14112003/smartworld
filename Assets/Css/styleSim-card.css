@@ -1,0 +1,246 @@
+body {
+    background-color: #fff;
+}
+.vina {
+    background: #42afef;
+}
+.viettell {
+    background-color: #3d8d8c;
+}
+.itel {
+    background-color: #f33;
+}
+.vnmobile {
+    background-color: #f58232;
+}
+.mobi {
+    background-color: #17518b;
+}
+.slider.grid.wide {
+    margin: 1% auto;
+    margin-top: 155px;
+}
+
+.slider-content-right img {
+    width: 100%;
+    height: auto;
+    margin: 1% 0;
+}
+
+.slider-content-right img:first-child {
+    margin: 0 0 1% 0;
+}
+
+.head-text {
+    display: block;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    width: 50%;
+}
+
+.title {
+    display: block;
+    overflow: hidden;
+    padding: 5px 0 5px 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-image: url(https://cdn.tgdd.vn/sim-so-dep/Content/desktop/images/2020/box1.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+    min-height: 35px;
+    line-height: 35px;
+    color: #fff;
+}
+
+.datacard {
+    clear: both;
+    display: block;
+    background: #fff;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    border: 3px solid #1d6ab8;
+    margin-bottom: 20px;
+}
+
+.datacard li {
+    width: 46%;
+    margin: 0 2% 2% .5%;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #dadada;
+    position: relative;
+    max-height: 205px;
+    margin-left: 2%;
+    display: flex;
+}
+.datacard li:hover {
+    box-shadow: 0 0 10px 0 rgb(151 151 151 / 50%);
+}   
+.datacard li .image {
+    width: 36%;
+    height: max-content;
+    overflow: hidden;
+    padding: 6px 0;
+    text-align: center;
+    border-radius: 4px 0 0 4px;
+    position: relative;
+    display: block;
+
+}
+
+.datacard li .image-mobile {
+    display: none;
+}
+
+.datacard li .image span {
+    display: block;
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10%;
+    z-index: 10;
+    left: 22%;
+}
+
+.content {
+    padding-left: 2%;
+    display: block;
+    position: relative;
+    height: 100%;
+}
+.content .select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 2%;
+}
+.content .select>span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 3px 5px 3px 10px;
+}
+.content .select>span.box-right {
+    border-left: 1px solid #dadada;
+}
+.content .select>span i {
+    font-size: 1.5rem;
+    color: #288ad6;
+}
+
+.content>p {
+    font-size: .8rem;
+    line-height: 18px;
+}
+
+.content>p i {
+    margin-right: 4px;
+    color: #339966;
+}
+
+.content .info {
+    display: flex;
+    position: absolute;
+    bottom: 3%;
+    left: 0;
+    right: 0;
+    justify-content: space-around;
+
+}
+
+.info .price strong {
+    color: #d0021b;
+    display: block;
+    font-size: 16px;
+    padding: 0 12px;
+}
+
+.info .price strong sup {
+    text-decoration: underline;
+}
+
+.datacard li .chnumber {
+    float: left;
+    overflow: hidden;
+    padding: 6px 15px;
+    background: #fff;
+    border: 1px solid #288ad6;
+    border-radius: 3px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #288ad6;
+    margin: 7px 0 0 15px;
+}
+
+
+
+
+/* media */
+
+/* Tablet - PC low resolution */
+@media (max-width: 64em) {
+    .head-text {
+        width: 100%;
+    }
+    .datacard li {
+        flex-direction: column;
+        min-height: 300px;
+        overflow: visible;
+    }
+
+    .datacard li .image {
+        display: none;
+    }
+
+    .datacard li .image-mobile {
+        display: block;
+    }
+
+    .datacard li i {
+        display: none;
+    }
+
+    .datacard li .select {
+        border-bottom: 1px solid #eee;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .datacard li .content p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .datacard li .content span.box-right {
+        border-left: none;
+    }
+    .datacard li .content> p:last-child {
+        margin-bottom: 3px;
+        border-bottom: 1px solid #eee;
+    }
+}
+/* mobile ---------- */
+@media (max-width: 46.1875em) {
+    .datacard li {
+        flex-direction: column;
+        overflow: visible;
+        width: 100%;
+    }
+    .slider.grid.wide {
+        margin-top: 112px;
+    }
+}
+
+/* > PC low resolution */
+@media (min-width: 64em) and (max-width: 77.4375em) {}

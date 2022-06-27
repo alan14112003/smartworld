@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- -----------------------------------css cho icon font-awesome-------------------------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <!-- -----------------------thư viện owlcarousel------------------------------------ -->
+    <link rel="stylesheet" href="../Assets/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="../Assets/owlcarousel/owl.theme.default.min.css">
+    <!-- -----------------------------------css tự chỉnh-------------------------------- -->
+    <link rel="stylesheet" href="../Assets/Css/Grid.css">
+    <!-- -----------css chung---------------- -->
+    <link rel="stylesheet" href="../Assets/Css/styleHeader.css">
+    <!-- -----------css dienthoai---------------- -->
+    <link rel="stylesheet" href="../Assets/Css/styleDienThoai.css">
+    <!-- -------------------------------------------------------------------------------------------- -->
+    <link rel="icon" href="../Assets/Image/Header/Logo.jpg" type="image/x-icon">
+    <title>Điện thoại, smartphone chính hãng</title>
+</head>
+
+<body>
+    <!-- --------------------------------------------------------- header pc-------------------------------------------------- -->
+    <div class="pc_screen">
+        <header>
+            <img src="../Assets/Image/Header/hinhanh1.png" alt="">
+        </header>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li><a href="./index.html"><img src="../Assets/Image/Header/Menu.jpg" alt=""
+                                style="width: 150px;"></a></li>
+                    <li>
+                        <form action="">
+                            <input class="input-search" type="text" name="" id="" placeholder="tìm kiếm...">
+                            <div class="autobox">
+                                <li>Điện thoại</li>
+                                <li>Laptop</li>
+                                <li>abc</li>
+                            </div>
+                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </li>
+                    <li><a href="./Cart.html"><button><i class="fa-solid fa-cart-shopping"></i> Giỏ Hàng</button></a>
+                    </li>
+                    <li><a href=""><i class="fa-solid fa-clipboard-question"></i> Hỏi Đáp</a></li>
+                    <li><a href="./login.html"><i class="fa-solid fa-right-to-bracket"></i> Đăng nhập</a></li>
+                </ul>
+
+            </div>
+        </nav>
+        <section class="menu-bar">
+            <div class="container">
+                <div class="menu-bar-content">
+                    <ul>
+                        <li><a href="./dien-thoai.html"><i class="fa-solid fa-mobile-screen"></i>Điện thoại</a></li>
+                        <li><a href="./tablet.html"><i class="fa-solid fa-tablet-screen-button"></i>Tablet</a></li>
+                        <li><a href=""><i class="fa-solid fa-headphones-simple"></i>Phụ kiện<i style="margin-left: 8px;"
+                                    class="fa-solid fa-sort-down"></i></a>
+                            <div class="submenu">
+                                <ul>
+                                    <li>
+                                        <ul>
+                                            <h4>Phụ Kiện Điện Thoại</h4>
+                                            <li><a href="">Sạc dự Phòng</a></li>
+                                            <li><a href="">Sạc cáp</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <h4>Phụ Kiện Laptop</h4>
+                                            <li><a href="">Chuột, bàn phím</a></li>
+                                            <li><a href="">Camera, webcam</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="./sim-card.html"><i class="fa-solid fa-sim-card"></i>Sim & Thẻ cào</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- --------------------------------------------------header mobile -------------------------------------- -->
+    <div class="mobile_screen">
+        <header class="header_mobile">
+            <div class="header_mobile__bar">
+                <div class="header_mobile__bar-item mobile-logo">
+                    <a href="./index.html"><img src="../Assets/Image/Header/Logo.jpg" alt=""></a>
+                </div>
+                <label class="header_mobile__bar-item mobile-btn" for="menu_mobile-input">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+            </div>
+        </header>
+        <nav class="nav_mobile">
+            <div class="nav_mobile__bar">
+                <div class="nav_mobile__bar-item mobile-search">
+                    <form action="">
+                        <input class="input-mobile-search" type="text" name="" id="" placeholder="tìm kiếm...">
+                        <div class="autobox-mobile">
+                            <li>Điện thoại</li>
+                            <li>Laptop</li>
+                            <li>abc</li>
+                        </div>
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+                <div class="nav_mobile__bar-item mobile-cart">
+                    <a href="./Cart.html"><button><i class="fa-solid fa-cart-shopping"></i></button></a>
+                </div>
+            </div>
+        </nav>
+        <input type="checkbox" name="" class="menu_mobile-check" id="menu_mobile-input">
+        <label class="menu_overlay" for="menu_mobile-input"></label>
+        <div class="menu_mobile">
+            <label class="menu_mobile__close" for="menu_mobile-input">
+                <i class="fa-regular fa-circle-xmark"></i>
+            </label>
+            <ul class="menu_mobile__list">
+                <li><a href="./index.html"><i class="fa-solid fa-house"></i> Trang chủ</a></li>
+                <li><a href="./dien-thoai.html"><i class="fa-solid fa-mobile-screen"></i> Điện thoại</a></li>
+                <li><a href="./tablet.html"><i class="fa-solid fa-tablet-screen-button"></i> Tablet</a></li>
+                <li><label for="mobile_check-submenu"><i class="fa-solid fa-headphones-simple"></i> Phụ kiện<i
+                            style="margin-left: 8px;" class="fa-solid fa-sort-down"></i></label>
+                    <input type="checkbox" name="" id="mobile_check-submenu" class="check-submenu">
+                    <div class="submenu_mobile__list">
+                        <ul>
+                            <li>
+                                <h3>Phụ Kiện Điện Thoại</h3>
+                                <hr>
+                                <ul>
+                                    <li><a href="">Sạc dự Phòng</a></li>
+                                    <li><a href="">Sạc cáp</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>Phụ Kiện Laptop</h3>
+                                <hr>
+                                <ul>
+                                    <li><a href="">Chuột, bàn phím</a></li>
+                                    <li><a href="">Camera, webcam</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="./sim-card.html"><i class="fa-solid fa-sim-card"></i>Sim & Thẻ cào</a></li>
+                <li><a href=""><i class="fa-solid fa-clipboard-question"></i> Hỏi Đáp</a></li>
+                <li><a href="./login.html"><i class="fa-solid fa-right-to-bracket"></i> Đăng nhập</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- -------------------------------mobile screen-------------------- -->
+
+    <!-- ---------------------slider--------------------------- -->
+    <section class="slider grid wide">
+        <div class="slider-content row">
+            <div class="slider-content-left col c-12 m-12 l-8 owl-carousel">
+                <a href=""><img src="../Assets/Image/Header/slide1png.png" alt=""></a>
+                <a href=""><img src="../Assets/Image/Header/slide2.png" alt=""></a>
+                <a href=""><img src="../Assets/Image/Header/slide3.png" alt=""></a>
+                <a href=""><img src="../Assets/Image/Header/slide4.png" alt=""></a>
+            </div>
+            <div class="slider-content-right col c-0 m-0 l-4">
+                <ul>
+                    <li><a href=""><img src="../Assets/Image/Header/image1.png" alt=""></a></li>
+                    <li><a href=""><img src="../Assets/Image/Header/image2.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------menu-lựa chọn------------------------------------ -->
+    <section class="menu-luachon">
+        <div class="container">
+            <!-- -------------lọc điện thoại-------------- -->
+            <div class="scroll-locDt menu-luachon-scroll">
+                <ul class="loc_dienthoai">
+                    <li class="loc_dienthoai-item">
+                        <span>Hãng <i class="fa-solid fa-caret-down"></i></span>
+                        <div class="hang-showView show-view">
+                            <div class="arrow-filter"></div>
+                            <div class="hang-dienthoai">
+                                <div class="hang-item">
+                                    <img src="../Assets/Image/Data/Phone/IconDt/samsungnew-220x48-1.png" alt="">
+                                </div>
+                                <div class="hang-item">
+                                    <img src="../Assets/Image/Data/Phone/IconDt/logo-iphone-220x48.png" alt="">
+                                </div>
+                                <div class="hang-item">
+                                    <img src="../Assets/Image/Data/Phone/IconDt/Realme42-b_37.png" alt="">
+                                </div>
+                                <div class="hang-item">
+                                    <img src="../Assets/Image/Data/Phone/IconDt/OPPO42-b_5.jpg" alt="">
+                                </div>
+                                <div class="hang-item">
+                                    <img src="../Assets/Image/Data/Phone/IconDt/logo-xiaomi-220x48-5.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="loc_dienthoai-item"><span>Giá <i class="fa-solid fa-caret-down"></i></span></li>
+                    <li class="loc_dienthoai-item"><span>Pin & Hiệu xuất <i class="fa-solid fa-caret-down"></i></span>
+                    </li>
+                    <li class="loc_dienthoai-item">
+                        <span>RAM <i class="fa-solid fa-caret-down"></i></span>
+                        <div class="ram-showView show-view">
+                            <div class="arrow-filter"></div>
+                            <div class="ram-dienthoai">
+                                <div class="ram-item">
+                                    2 GB
+                                </div>
+                                <div class="ram-item">
+                                    4 GB
+                                </div>
+                                <div class="ram-item">
+                                    6 GB
+                                </div>
+                                <div class="ram-item">
+                                    8 GB
+                                </div>
+                                <div class="ram-item">
+                                    12 GB
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="loc_dienthoai-item"><span>Camera <i class="fa-solid fa-caret-down"></i></span></li>
+                    <li class="loc_dienthoai-item"><span>Màn hình <i class="fa-solid fa-caret-down"></i></span></li>
+                </ul>
+            </div>
+
+            <div class="scroll-hangDt menu-luachon-scroll">
+                <div class="hang-dienthoai">
+                    <a href="./Phones/samsung.html">
+                        <img src="../Assets/Image/Data/Phone/IconDt/samsungnew-220x48-1.png" alt="">
+                    </a>
+                    <a href="./Phones/iphone.html">
+                        <img src="../Assets/Image/Data/Phone/IconDt/logo-iphone-220x48.png" alt="">
+                    </a>
+                    <a href="./Phones/realmi.html">
+                        <img src="../Assets/Image/Data/Phone/IconDt/Realme42-b_37.png" alt="">
+                    </a>
+                    <a href="./Phones/oppo.html">
+                        <img src="../Assets/Image/Data/Phone/IconDt/OPPO42-b_5.jpg" alt="">
+                    </a>
+                    <a href="./Phones/redmi.html">
+                        <img src="../Assets/Image/Data/Phone/IconDt/logo-xiaomi-220x48-5.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="products">
+        <div class="container">
+            <ul class="row">
+                <li class="row-item">
+                    <a href="">
+                        <div class="item-label">
+                            <span>Trả góp 0%</span>
+                        </div>
+                        <div class="item-image">
+                            <img src="../Assets/Image/Data/Phone/Samsung/Galaxy-S22-Ultra-Burgundy-600x600.jpg" alt="">
+                        </div>
+                        <p class="item-name">SamSung Galaxy S22 Ultra 5G</p>
+                        <div class="item-capacity">
+                            <ul>
+                                <li>8GB/128GB</li>
+                                <li>12GB/256GB</li>
+                                <li>12GB/512GB</li>
+                            </ul>
+                        </div>
+                        <strong class="item-price">30.990.000<sup>đ</sup></strong>
+                        <div class="item-rating">
+                            <b class="star-number">3</b> <i class="fa-solid fa-star"></i> <span
+                                class="star-person">(31)</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="row-item">
+                    <a href="">
+                        <div class="item-label">
+                            
+                        </div>
+                        <div class="item-image">
+                            <img src="../Assets/Image/Data/Phone/ImageMobile/iphone-xi-xanhla-600x600.jpg" alt="">
+                        </div>
+                        <div class="item-sale"
+                            style=" background: linear-gradient(to right,#ef3006,#c60004); width: 47%;">
+                            <img src="../Assets/Image/Icon-Sale/icon1-50x50.png" alt="">
+                            <p>ƯU ĐÃI SỐC</p>
+                        </div>
+                        <p class="item-name">iPhone 11</p>
+                        <div class="item-capacity">
+                            <ul>
+                                <li>64GB</li>
+                                <li>128GB</li>
+                                <li>256GB</li>
+                            </ul>
+                        </div>
+                        <span class="item-old-price">
+                            <p>14.990.000</p><sup>đ</sup> -16%
+                        </span>
+                        <strong class="item-price">12.490.000<sup>đ</sup></strong>
+                        <div class="item-gift">
+                        </div>
+                        <div class="item-rating">
+                            <b class="star-number">4</b> <i class="fa-solid fa-star"></i> <span
+                                class="star-person">(832)</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="row-item">
+                    <a href="">
+                        <div class="item-label">
+                            <span>Trả góp 0%</span>
+                        </div>
+                        <div class="item-image">
+                            <img src="../Assets/Image/Data/Phone/ImageMobile/oppo-reno7-z-5g-thumb-1-1-600x600.jpg" alt="">
+                        </div>
+                        <p class="item-name">OPPO Reno7 series</p>
+                        <div class="item-capacity">
+                            <ul>
+                                <li>Reno7 Z 5G</li>
+                                <li>Reno7 4G</li>
+                                <li>Reno7 5G</li>
+                                <li>Reno7 Pro 5G</li>
+                            </ul>
+                        </div>
+                        <strong class="item-price">10.490.000<sup>đ</sup></strong>
+                        <div class="item-rating">
+                            <b class="star-number">4</b> <i class="fa-solid fa-star"></i> <span
+                                class="star-person">(210)</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="row-item">
+                    <a href="">
+                        <div class="item-label">
+                            <span>Trả góp 0%</span>
+                        </div>
+                        <div class="item-image">
+                            <img src="../Assets/Image/Data/Phone/ImageMobile/realme-c35-thumb-new-600x600.jpg" alt="">
+                        </div>
+                        <p class="item-name">Realme C35</p>
+                        <div class="item-capacity">
+                            <ul>
+                                <li>128GB</li>
+                                <li>64GB</li>
+                            </ul>
+                        </div>
+                        <strong class="item-price">4.290.000<sup>đ</sup></strong>
+                        <div class="item-rating">
+                            <b class="star-number">3</b> <i class="fa-solid fa-star"></i> <span
+                                class="star-person">(128)</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="row-item">
+                    <a href="">
+                        <div class="item-label">
+                            <span>Trả góp 0%</span>
+                        </div>
+                        <div class="item-image">
+                            <img src="../Assets/Image/Data/Phone/ImageMobile/Xiaomi-11T-White-1-2-3-600x600.jpg" alt="">
+                        </div>
+                        <div class="item-sale"
+                            style=" background: linear-gradient(to right,#ef3006,#c60004); width: 47%;">
+                            <img src="../Assets/Image/Icon-Sale/icon1-50x50.png" alt="">
+                            <p>ƯU ĐÃI SỐC</p>
+                        </div>
+                        <p class="item-name">Xiaomi 11T</p>
+                        <div class="item-capacity">
+                            <ul>
+                                <li>128GB</li>
+                                <li>256GB</li>
+                            </ul>
+                        </div>
+                        <strong class="item-price">10.990.000<sup>đ</sup></strong>
+                        <div class="item-gift">
+                            Quà 750.000<sup>đ</sup>
+                        </div>
+                        <div class="item-rating">
+                            <b class="star-number">4</b> <i class="fa-solid fa-star"></i> <span
+                                class="star-person">(334)</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="row-item">
+                    <a href="">
+                        <div class="item-label">
+                            <span>Trả góp 0%</span>
+                        </div>
+                        <div class="item-image">
+                            <img src="../Assets/Image/Data/Phone/ImageMobile/Vivo-y15s-2021-xanh-den-660x600.jpg" alt="">
+                        </div>
+                        <p class="item-name">Vivo Y15 series</p>
+                        <div class="item-capacity">
+                            <ul>
+                                <li>Y15s</li>
+                                <li>Y15a</li>
+                            </ul>
+                        </div>
+                        <strong class="item-price">3.490.000<sup>đ</sup></strong>
+                        <div class="item-gift">
+                            Quà 600.000<sup>đ</sup>
+                        </div>
+                        <div class="item-rating">
+                            <b class="star-number">3</b> <i class="fa-solid fa-star"></i> <span
+                                class="star-person">(79)</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="row-item">
+                    <a href="">
+                        <div class="item-label">
+                            <span>Trả góp 0%</span>
+                        </div>
+                        <div class="item-image">
+                            <img src="../Assets/Image/Data/Phone/ImageMobile/oppo-find-x5-pro-den-thumb-600x600.jpg" alt="">
+                        </div>
+                        <p class="item-name">OPPO Find X5 Pro 5G</p>
+                        <span class="item-old-price">
+                            <p>32.990.000</p><sup>đ</sup> -6%
+                        </span>
+                        <strong class="item-price">30.990.000<sup>đ</sup></strong>
+                    </a>
+                </li>
+                <li class="row-item">
+                    <a href="">
+                        <div class="item-label">
+                            <span>Trả góp 0%</span>
+                        </div>
+                        <div class="item-image">
+                            <img src="../Assets/Image/Data/Phone/ImageMobile/iphone-se-white-600x600.jpg" alt="">
+                        </div>
+                        <p class="item-name">iPhone SE (2022)</p>
+                        <div class="item-capacity">
+                            <ul>
+                                <li>128GB</li>
+                                <li>64GB</li>
+                            </ul>
+                        </div>
+                        <strong class="item-price">12.990.000<sup>đ</sup></strong>
+                        <div class="item-gift">
+                            Quà 750.000<sup>đ</sup>
+                        </div>
+                    </a>
+                </li>
+                <li class="row-item">
+                    <a href="">
+                        <div class="item-label">
+                            <span>Trả góp 0%</span>
+                        </div>
+                        <div class="item-image">
+                            <img src="../Assets/Image/Data/Phone/ImageMobile/samsung-galaxy-s21-plus-den-600x600-600x600.jpg"
+                                alt="">
+                        </div>
+                        <p class="item-name">Samsung Galaxy S21+ 5G 128GB</p>
+                        <span class="item-old-price">
+                            <p>25.990.000</p><sup>đ</sup> -30%
+                        </span>
+                        <strong class="item-price">17.990.000<sup>đ</sup></strong>
+                        <div class="item-rating">
+                            <b class="star-number">3</b> <i class="fa-solid fa-star"></i> <span
+                                class="star-person">(148)</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="row-item">
+                    <a href="">
+                        <div class="item-label">
+                            <span>Trả góp 0%</span>
+                        </div>
+                        <div class="item-image">
+                            <img src="../Assets/Image/Data/Phone/ImageMobile/Samsung-Galaxy-A53-xanh-thumb-600x600.jpg"
+                                alt="">
+                        </div>
+                        <p class="item-name">Samsung Galaxy A53 5G 128GB</p>
+                        <strong class="item-price">9.990.000<sup>đ</sup></strong>
+                        <div class="item-rating">
+                            <b class="star-number">3</b> <i class="fa-solid fa-star"></i> <span
+                                class="star-person">(122)</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <!-- --------------------row-none--------------------------- -->
+            <div class="row-none">
+                <ul class="row">
+                    <li class="row-item">
+                        <a href="">
+                            <div class="item-label">
+                                <span>Trả góp 0%</span>
+                            </div>
+                            <div class="item-image">
+                                <img src="../Assets/Image/Data/Phone/ImageMobile/samsung-galaxy-note-20-062220-122200-fix-600x600.jpg"
+                                    alt="">
+                            </div>
+                            <p class="item-name">Samsung Galaxy Note 20</p>
+                            <span class="item-old-price">
+                               <p>23.990.000</p><sup>đ</sup> -33%
+                            </span>
+                            <strong class="item-price">15.990.000<sup>đ</sup></strong>
+                            <div class="item-rating">
+                                <b class="star-number">3</b> <i class="fa-solid fa-star"></i> <span
+                                    class="star-person">(248)</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="row-item">
+                        <a href="">
+                            <div class="item-label">
+                                <span>Trả góp 0%</span>
+                            </div>
+                            <div class="item-image">
+                                <img src="../Assets/Image/Data/Phone/ImageMobile/oppo-a55-4g-thumb-new-600x600.jpg"
+                                    alt="">
+                            </div>
+                            <p class="item-name">OPPO A55</p>
+                            <strong class="item-price">4.990.000₫<sup>đ</sup></strong>
+                            <div class="item-gift">
+                                Quà 450.000<sup>đ</sup>
+                            </div>
+                            <div class="item-rating">
+                                <b class="star-number">4</b> <i class="fa-solid fa-star"></i> <span
+                                    class="star-person">(279)</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="row-item">
+                        <a href="">
+                            <div class="item-label">
+                                <span>Trả góp 0%</span>
+                            </div>
+                            <div class="item-image">
+                                <img src="../Assets/Image/Data/Phone/ImageMobile/Xiaomi-12-xam-thumb-mau-600x600.jpg"
+                                    alt="">
+                            </div>
+                            <p class="item-name">Xiaomi 12 series</p>
+                            <div class="item-capacity">
+                                <ul>
+                                    <li>Xiaomi 12</li>
+                                    <li>Xiaomi 12 Pro</li>
+                                </ul>
+                            </div>
+                            <span class="item-old-price">
+                                <p>19.990.000</p><sup>đ</sup>
+                            </span>
+                            <strong class="item-price">30.990.000<sup>đ</sup></strong>
+                            <div class="item-gift">
+                                Giảm thêm 1.000.000<sup>đ</sup>
+                            </div>
+                            <div class="item-rating">
+                                <b class="star-number">4</b> <i class="fa-solid fa-star"></i> <span
+                                    class="star-person">(6)</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="row-item">
+                        <a href="">
+                            <div class="item-label">
+                                <span>Trả góp 0%</span>
+                            </div>
+                            <div class="item-image">
+                                <img src="../Assets/Image/Data/Phone/ImageMobile/Xiaomi-11T-White-1-2-3-600x600.jpg"
+                                    alt="">
+                            </div>
+                            <p class="item-name">Xiaomi 11T Pro 5G</p>
+                            <div class="item-capacity">
+                                <ul>
+                                    <li>8GB</li>
+                                    <li>12GB</li>
+                                </ul>
+                            </div>
+                            <strong class="item-price">13.990.000₫<sup>đ</sup></strong>
+                            <div class="item-gift">
+                                Quà 750.000<sup>đ</sup>
+                            </div>
+                            <div class="item-rating">
+                                <b class="star-number">3</b> <i class="fa-solid fa-star"></i> <span
+                                    class="star-person">(40)</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="row-item">
+                        <a href="">
+                            <div class="item-label">
+                                <span>Trả góp 0%</span>
+                            </div>
+                            <div class="item-image">
+                                <img src="../Assets/Image/Data/Phone/ImageMobile/xiaomi-redmi-note-10-pro-thumb-xam-600x600-600x600.jpg"
+                                    alt="">
+                            </div>
+                            <p class="item-name">Xiaomi Redmi Note 10 Pro (8GB/128GB)</p>
+                            <strong class="item-price">7.490.000<sup>đ</sup></strong>
+                            <div class="item-rating">
+                                <b class="star-number">3</b> <i class="fa-solid fa-star"></i> <span
+                                    class="star-person">(783)</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="row-item">
+                        <a href="">
+                            <div class="item-label">
+                                <span>Trả góp 0%</span>
+                            </div>
+                            <div class="item-image">
+                                <img src="../Assets/Image/Data/Phone/ImageMobile/Samsung-galaxy-m53-green-600x600.jpg"
+                                    alt="">
+                            </div>
+                            <p class="item-name">Samsung Galaxy M33 5G</p>
+                            <strong class="item-price">7.690.000₫<sup>đ</sup></strong>
+                            <div class="item-rating">
+                                <b class="star-number">4</b> <i class="fa-solid fa-star"></i> <span
+                                    class="star-person">(18)</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="row-item">
+                        <a href="">
+                            <div class="item-label">
+                                <span>Trả góp 0%</span>
+                            </div>
+                            <div class="item-image">
+                                <img src="../Assets/Image/Data/Phone/ImageMobile/realme-9-4g-vang-thumb-1-600x600.jpg"
+                                    alt="">
+                            </div>
+                            <p class="item-name">Realme 9 4G</p>
+                            <strong class="item-price">6.690.000<sup>đ</sup></strong>
+                            <div class="item-rating">
+                                <b class="star-number">5</b> <i class="fa-solid fa-star"></i> <span
+                                    class="star-person">(4)</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="row-item">
+                        <a href="">
+                            <div class="item-label">
+                                <span>Trả góp 0%</span>
+                            </div>
+                            <div class="item-image">
+                                <img src="../Assets/Image/Data/Phone/ImageMobile/Vivo-y33s-yellow-thumb-600x600.jpg"
+                                    alt="">
+                            </div>
+                            <p class="item-name">SamSung Galaxy S22 Ultra 5G</p>
+                            <span class="item-old-price">
+                                <p>6.690.000</p><sup>đ</sup>
+                            </span>
+                            <strong class="item-price">6.490.000<sup>đ</sup></strong>
+                            <div class="item-gift">
+                                Quà 300.000<sup>đ</sup>
+                            </div>
+                            <div class="item-rating">
+                                <b class="star-number">4</b> <i class="fa-solid fa-star"></i> <span
+                                    class="star-person">(36)</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="row-item">
+                        <a href="iphone_13_pro.html">
+                            <div class="item-label">
+                                <span>Trả góp 0%</span>
+                            </div>
+                            <div class="item-image">
+                                <img src="../Assets/Image/Data/Phone/ImageMobile/iphone-13-pro-max-gold-1-600x600.jpg" alt="">
+                            </div>
+                            <p class="item-name">iPhone 13 Pro Max</p>
+                            <div class="item-capacity">
+                                <ul>
+                                    <li>128GB</li>
+                                    <li>256GB</li>
+                                    <li>512GB</li>
+                                    <li>1TB</li>
+                                </ul>
+                            </div>
+                            <span class="item-old-price">
+                                <p>33.990.000</p><sup>đ</sup> -10%
+                            </span>
+                            <strong class="item-price">30.490.000<sup>đ</sup></strong>
+                            <div class="item-rating">
+                                <b class="star-number">5</b> <i class="fa-solid fa-star"></i> <span
+                                    class="star-person">(359)</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="row-item">
+                        <a href="">
+                            <div class="item-label">
+                                <span>Trả góp 0%</span>
+                            </div>
+                            <div class="item-image">
+                                <img src="../Assets/Image/Data/Phone/ImageMobile/samsung-galaxy-a32-4g-thumb-tim-600x600-600x600.jpg"
+                                    alt="">
+                            </div>
+                            <p class="item-name">Samsung Galaxy A32</p>
+                            <strong class="item-price">6.490.000<sup>đ</sup></strong>
+                            <div class="item-rating">
+                                <b class="star-number">3</b> <i class="fa-solid fa-star"></i> <span
+                                    class="star-person">(755)</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="view-more">
+                <button class="view-more-btn">Xem Thêm <i class="fa-solid fa-caret-down"></i></button>
+            </div>
+            <div class="view-abbreviate">
+                <button class="view-abbreviate-btn">Rút Gọn <i class="fa-solid fa-caret-up"></i></button>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="lienket-bar">
+                <div class="lienket">
+                    <h4 class="lienket-title">Hỗ trợ khách hàng</h4>
+                    <ul>
+                        <li class="lienket-item"><a href="">Hotline: <span>1900.2301</span></a></li>
+                        <li class="lienket-item"><a href="">Các câu hỏi thường gặp</a></li>
+                        <li class="lienket-item"><a href="">Gửi yêu cầu hỗ trợ</a></li>
+                    </ul>
+                </div>
+                <div class="lienket">
+                    <h4 class="lienket-title">Về Smart world</h4>
+                    <ul>
+                        <li class="lienket-item"><a href="">Giới thiệu smart world</a></li>
+                        <li class="lienket-item"><a href="">Tuyển dụng</a></li>
+                        <li class="lienket-item"><a href="">Gửi góp ý, khiếu nại</a></li>
+                    </ul>
+                </div>
+                <div class="lienket thong-tin-rieng">
+                    <h4 class="lienket-title">Kết nối với chúng tôi</h4>
+                    <ul>
+                        <li class="lienket-item"><a href="https://www.facebook.com/profile.php?id=100048327580198"><i
+                                    class="fa-brands fa-facebook"></i></a></li>
+                        <li class="lienket-item"><a href="tel:0359591411"><i class="fa-solid fa-square-phone"></i></a></li>
+                        <li class="lienket-item"><a href="mailto:sonnn.21it@vku.udn.vn?subject=Hỗ trợ khách hàng"><i class="fa-brands fa-google-plus"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="thong-tin-them">
+            <div class="container">
+                <div class="thong-tin-them-text">
+                    <p>© 2018. Công ty cổ phần Smart World. Địa chỉ: 128 Trần Quang Khải, Q. Ngũ Hành Sơn, TP.Đà Nẵng.
+                        Điện thoại: 0359591411.
+                        Email: cskh@smartworld.com. Chịu trách nhiệm nội dung: Nguyễn Ngọc Sơn. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----------------------------------------------------------------------------------- -->
+    <script src="../Assets/Js/Script.js"></script>
+    <script src="../Assets/Js/ScriptPhone.js"></script>
+    <!-- -----------------------thư viện owlcarousel------------------------------------ -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="../Assets/owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 1,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 2000,
+        });
+    </script>
+</body>
+</html>
